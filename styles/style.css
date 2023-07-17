@@ -1,0 +1,41 @@
+body{width: auto;height: auto;}
+.container{ background: #FFF;;
+    display: flex;
+    justify-content: space-around;
+}
+.product-head{color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+   
+    font-weight: 700;
+   }
+nav ul {display: flex;gap: 30px;list-style: none;}
+
+.journey-para{color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+   
+    font-weight: 600;
+  }
+  .journey-container{display: flex;padding: 100px;
+    justify-content: space-around;
+margin-top: -40px;
+}
+.journey-camera{width: 220px;height: 200px;
+background-image:url(../logos/images/circle\ design.svg) ;
+background-position: top;background-size: 230px;
+background-repeat: no-repeat;
+
+}
+.primary-btn{border-radius: 41px;
+    background: #E02C6D;
+padding: 5px;
+color: #FFF;}
+.card-container{display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+.pic{width: 111px;
+    height: 26px;
+    flex-shrink: 0;}
